@@ -1,10 +1,10 @@
 class Tinyjpg < Formula
   desc "Cross-platform image optimizer"
   homepage "https://github.com/OrlovEvgeny/TinyJPG"
-  version "0.1.0"
+  version "1.0.1"
 
   url "https://tinyjpg.eorlov.org/tinyjpg/#{version}/tinyjpg-#{version}-macos-arm64.tar.gz"
-  sha256 "TO_BE_FILLED_BY_RELEASE"
+  sha256 "e9b552fc842cdabac21a58041fb97bf41237f9d282a615043216d5726791ecaa"
 
   def install
     bin.install "tinyjpg"
